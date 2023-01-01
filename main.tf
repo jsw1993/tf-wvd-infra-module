@@ -9,6 +9,7 @@ resource "azurerm_virtual_desktop_host_pool" "wvd_pool" {
   description              = var.wvd-hostpool-description
   validate_environment     = false
   maximum_sessions_allowed = var.wvd-hostpool-max-sessions
+  tags                     = var.tags
 }
 
 resource "azurerm_virtual_desktop_host_pool_registration_info" "wvd_pool" {
@@ -24,6 +25,7 @@ resource "azurerm_virtual_desktop_application_group" "default_wvd_app_group" {
   host_pool_id        = azurerm_virtual_desktop_host_pool.wvd_pool.id
   friendly_name       = var.wvd-defaultappgroup-friendly-name
   description         = var.wvd-defaultappgroup-description
+  tags                = var.tags
 }
 
 resource "azurerm_virtual_desktop_workspace" "wvd_workspace" {
@@ -32,6 +34,7 @@ resource "azurerm_virtual_desktop_workspace" "wvd_workspace" {
   location            = var.location
   friendly_name       = var.wvd-workspace-friendly-name
   description         = var.wvd-workspace-description
+  tags                = var.tags
 }
 
 resource "azurerm_virtual_desktop_workspace_application_group_association" "wvd_workspace_appgroup" {

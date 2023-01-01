@@ -12,9 +12,10 @@ This module creates the infrastructure required for an Azure Virtual Desktop Dep
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_location"></a> [location](#input\_location) | Resource location | `any` | n/a | yes |
-| <a name="input_prefix"></a> [prefix](#input\_prefix) | Resource name prefix | `any` | n/a | yes |
-| <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | Resource Group Name | `any` | n/a | yes |
+| <a name="input_location"></a> [location](#input\_location) | Resource location | `string` | n/a | yes |
+| <a name="input_prefix"></a> [prefix](#input\_prefix) | Resource name prefix | `string` | n/a | yes |
+| <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | Resource Group Name | `string` | n/a | yes |
+| <a name="input_tags"></a> [tags](#input\_tags) | Map of tags | `map(any)` | `{}` | no |
 | <a name="input_wvd-defaultappgroup-description"></a> [wvd-defaultappgroup-description](#input\_wvd-defaultappgroup-description) | WVD Default App Group Description | `string` | `"WVD Default App Group for Desktop Access"` | no |
 | <a name="input_wvd-defaultappgroup-friendly-name"></a> [wvd-defaultappgroup-friendly-name](#input\_wvd-defaultappgroup-friendly-name) | WVD Default App Group Friendly Name | `string` | `"WVD App Group"` | no |
 | <a name="input_wvd-defaultappgroup-name"></a> [wvd-defaultappgroup-name](#input\_wvd-defaultappgroup-name) | WVD Default App Group Name | `string` | `"WVDAppGroup"` | no |
