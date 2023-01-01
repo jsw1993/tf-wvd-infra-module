@@ -1,0 +1,9 @@
+---
+content: |
+ {{ .Inputs }}
+ {{ .Resources }}
+output:
+  file: README.md
+  mode: inject
+settings: 
+  indent: 1
