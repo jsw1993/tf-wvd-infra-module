@@ -12,6 +12,7 @@ This module creates the infrastructure required for an Azure Virtual Desktop Dep
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_hostpool-custom_rdp_properties"></a> [hostpool-custom\_rdp\_properties](#input\_hostpool-custom\_rdp\_properties) | custom RDP properties for host pool | `string` | `""` | no |
 | <a name="input_location"></a> [location](#input\_location) | Resource location | `string` | n/a | yes |
 | <a name="input_prefix"></a> [prefix](#input\_prefix) | Resource name prefix | `string` | n/a | yes |
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | Resource Group Name | `string` | n/a | yes |

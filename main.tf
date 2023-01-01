@@ -9,6 +9,7 @@ resource "azurerm_virtual_desktop_host_pool" "wvd_pool" {
   description              = var.wvd-hostpool-description
   validate_environment     = false
   maximum_sessions_allowed = var.wvd-hostpool-max-sessions
+  custom_rdp_properties    = var.hostpool-custom_rdp_properties
   tags                     = var.tags
 }
 

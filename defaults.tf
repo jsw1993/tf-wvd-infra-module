@@ -64,3 +64,9 @@ variable "tags" {
   description = "Map of tags"
   type        = map(any)
 }
+
+variable "hostpool-custom_rdp_properties" {
+  default     = ""
+  description = "custom RDP properties for host pool"
+  type        = string
+}
