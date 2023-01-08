@@ -36,5 +36,14 @@ This module creates the infrastructure required for an Azure Virtual Desktop Dep
 | [azurerm_virtual_desktop_host_pool_registration_info.wvd_pool](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_desktop_host_pool_registration_info) | resource |
 | [azurerm_virtual_desktop_workspace.wvd_workspace](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_desktop_workspace) | resource |
 | [azurerm_virtual_desktop_workspace_application_group_association.wvd_workspace_appgroup](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_desktop_workspace_application_group_association) | resource |
+# Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_wvd-app-group-id"></a> [wvd-app-group-id](#output\_wvd-app-group-id) | n/a |
+| <a name="output_wvd-host-pool-id"></a> [wvd-host-pool-id](#output\_wvd-host-pool-id) | n/a |
+| <a name="output_wvd-host-pool-name"></a> [wvd-host-pool-name](#output\_wvd-host-pool-name) | n/a |
+| <a name="output_wvd-registration-token"></a> [wvd-registration-token](#output\_wvd-registration-token) | n/a |
+| <a name="output_wvd-workspace-id"></a> [wvd-workspace-id](#output\_wvd-workspace-id) | n/a |
 
 <!-- END_TF_DOCS -->
